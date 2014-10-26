@@ -12,18 +12,18 @@ Step 1:
   5. Combine both the training and testing data set together
 
 Step 2:
-6. The second step grabs all the columns from the data set that is referring to the mean and standard deviation. 
-7. The data set from Step 1 is filtered to only contain the Subject, Activity and mean and sd of the respective sensors.
+  6. The second step grabs all the columns from the data set that is referring to the mean and   standard deviation. 
+  7. The data set from Step 1 is filtered to only contain the Subject, Activity and mean and sd of the respective sensors.
 
 Step 3:
-8. Read the activity labels and add to the data set.
-9. The activity labels are also converted to factors.
+  8. Read the activity labels and add to the data set.
+  9. The activity labels are also converted to factors.
 
 Step 4.
-10. Label the data set with descriptive variable names by replacing the special characters.
+  10. Label the data set with descriptive variable names by replacing the special characters.
 
 Step 5. 
-11. Copy out the original column names because we will be renaming the column names in the new data set we are going to create.
-12. Use the melt and cast to retrieve the mean of each variable by subject and activity and assign it to a new data frame.
-13. Concatenate a "avg" to the column names of the new data frame that consists of the aggregated mean.
-14. Write the output to a text file.
+  11. Copy out the original column names because we will be renaming the column names in the new data set we are going to create.
+  12. Use the melt and cast to retrieve the mean of each variable by subject and activity and assign it to a new data frame.
+  13. Concatenate a "avg" to the column names of the new data frame that consists of the aggregated mean.
+  14. Write the output to a text file.
